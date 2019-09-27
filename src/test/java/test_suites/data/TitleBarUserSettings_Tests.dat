@@ -1,0 +1,5 @@
+test_UserNameWithDropdown|username=Rakesh
+test_UserSettingsClickChangeName|username=Rakesh
+test_UserSettingsChangeNameFunctionality|default_username=Rakesh,new_username=RakeshM
+test_UserSettingsChangePasswordFunctionality|old_password=Suraj@123,new_password=Impress@123,url=https://uat.impress.ai/accounts/login/
+test_UserSettingsChangeProfilePictureFunctionality|old_profile=A.png,new_profile=B.png

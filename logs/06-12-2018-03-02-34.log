@@ -1,0 +1,4 @@
+[INFO ] 2018-12-06 15:02:35 [main] ExecutionConfig - no environment properties defined in maven commandline, defaulting to impress.properties
+[INFO ] 2018-12-06 15:02:35 [main] ExecutionConfig - defaulting to chrome
+[INFO ] 2018-12-06 15:02:36 [main] BaseTest - initialized extent reports for test name : C:\Users\U76900\MySeleniumFramework\selenium_java\suite_xml\testng.xml
+[INFO ] 2018-12-06 15:03:41 [main] BaseTest - flushing extent reports

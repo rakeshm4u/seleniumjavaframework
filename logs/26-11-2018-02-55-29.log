@@ -1,0 +1,3 @@
+[INFO ] 2018-11-26 14:55:30 [main] ExecutionConfig - no environment properties defined in maven commandline, defaulting to impress.properties
+[INFO ] 2018-11-26 14:55:30 [main] ExecutionConfig - defaulting to chrome
+[INFO ] 2018-11-26 14:55:31 [main] BaseTest - initialized extent reports for test name : C:\Users\U76900\git\impress_se_fw\suite_xml\impress.xml

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [suitexmlsuitename]">
+  <test name="xmltestname(failed)" parallel="methods">
+    <classes>
+      <class name="test_suites.TitleBarUserSettings_Tests">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+          <include name="init"/>
+          <include name="test_UserNameWithDropdown" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test_suites.TitleBarUserSettings_Tests -->
+    </classes>
+  </test> <!-- xmltestname(failed) -->
+</suite> <!-- Failed suite [suitexmlsuitename] -->
