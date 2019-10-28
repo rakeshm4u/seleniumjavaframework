@@ -6,6 +6,8 @@ import com.ust.webDriverManager.TestDriver;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.*;
 
+import java.sql.Time;
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -28,11 +30,16 @@ public class BasePage extends PageInstanceFactory {
 	 * @param webElement
 	 *            : web element to be clicked
 	 */
+	@SuppressWarnings("static-access")
 	public void click(WebElement webElement) {
 		testDriver.getExtentTest().log(Status.INFO, "clicking : " + (webElement).getText());
 
-		Wait<WebDriver> wait = new FluentWait<>(testDriver.getDriver()).withTimeout(90000, TimeUnit.MILLISECONDS)
-				.pollingEvery(5500, TimeUnit.MILLISECONDS);
+		
+		  Duration timeout = null;
+		Wait<WebDriver> wait = new
+		  FluentWait<>(testDriver.getDriver()).withTimeout(timeout.ofSeconds(30))
+		  .pollingEvery(timeout.ofSeconds(5));
+		 
 
 		wait.until(new ExpectedCondition<Boolean>() {
 			@Override
